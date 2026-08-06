@@ -1,66 +1,68 @@
-/* Puri Website */
+/* ==========================
+   CLASS 9 NOTES WEBSITE
+========================== */
+
 body{
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
+    margin:0;
+    padding:20px;
+    background:#f0f8ff;
+    font-family:Arial, sans-serif;
+    text-align:center;
 }
 
 /* Heading */
 h1{
-    color: darkblue;
-    font-size: 40px;
-    margin-bottom: 30px;
+    color:darkblue;
+    font-size:40px;
+    margin-bottom:30px;
 }
 
 /* List */
 ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style:none;
+    padding:0;
+    margin:0;
 }
 
-/* List Item */
 li{
-    list-style: none;
-    margin-bottom: 30px;
+    margin-bottom:35px;
 }
 
-/* Main Subject Button */
+/* Subject Button */
 button{
-    width: 300px;
-    height: 70px;
-    font-size: 20px;
-    background-color: #f30c51;
-    color: white;
-    border: none;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: 0.3s;
+    width:320px;
+    height:70px;
+    background:#f30c51;
+    color:white;
+    border:none;
+    border-radius:35px;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
 }
 
-/* Hover Effect */
 button:hover{
-    background-color: green;
-    transform: scale(1.05);
+    background:green;
+    transform:scale(1.05);
 }
 
 /* Click Button */
 .small-btn{
-    width: 120px;
-    height: 45px;
-    margin-top: 15px;
-    background-color: #07cef1;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 20px;
-    cursor: pointer;
+    width:130px;
+    height:45px;
+    background:#07cef1;
+    color:white;
+    border:none;
+    border-radius:25px;
+    font-size:20px;
+    margin-top:12px;
 }
 
-/* Mobile Responsive */
-@media screen and (max-width:600px){
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media screen and (max-width:768px){
 
     body{
         padding:15px;
@@ -68,24 +70,22 @@ button:hover{
 
     h1{
         font-size:32px;
-        margin-bottom:25px;
     }
 
     button{
-        width:90%;
-        max-width:320px;
+        width:95%;
+        max-width:350px;
         height:65px;
         font-size:20px;
     }
 
     .small-btn{
-        width:130px;
+        width:140px;
         height:45px;
-        font-size:20px;
-        margin-top:15px;
+        font-size:18px;
     }
 
     li{
-        margin-bottom:35px;
+        margin-bottom:30px;
     }
 }
