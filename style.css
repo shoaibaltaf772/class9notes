@@ -62,7 +62,7 @@ button:hover{
    MOBILE RESPONSIVE
 ========================== */
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
 
     body{
         padding:15px;
