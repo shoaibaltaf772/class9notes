@@ -7,6 +7,12 @@ body{
     padding: 10px;
 }
 
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 /* Heading */
 h1{
     color: darkblue;
