@@ -1,16 +1,10 @@
-/* Puri website */
+/* Puri Website */
 body{
     background-color: #f0f8ff;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    padding: 10px;
-}
-
-.container{
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Heading */
@@ -24,40 +18,74 @@ h1{
 ul{
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-/* Buttons */
+/* List Item */
+li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+/* Main Subject Button */
 button{
     width: 300px;
     height: 70px;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #f30c51;
     color: white;
     border: none;
-    border-radius: 30px;
+    border-radius: 35px;
     cursor: pointer;
-    margin: 8px;
     transition: 0.3s;
 }
 
-/* Mouse button par aaye */
+/* Hover Effect */
 button:hover{
     background-color: green;
     transform: scale(1.05);
 }
 
-/* List item */
-li{
-    list-style: none;
-
-}
+/* Click Button */
 .small-btn{
-    width: 120px;      /* بٹن کی چوڑائی */
-    height: 45px;      /* بٹن کی اونچائی */
-    border-radius: 25px;
-    background: #07cef1;
+    width: 120px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: #07cef1;
     color: white;
     border: none;
-    font-size: 22px;
+    border-radius: 25px;
+    font-size: 20px;
     cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width:600px){
+
+    body{
+        padding:15px;
+    }
+
+    h1{
+        font-size:32px;
+        margin-bottom:25px;
+    }
+
+    button{
+        width:90%;
+        max-width:320px;
+        height:65px;
+        font-size:20px;
+    }
+
+    .small-btn{
+        width:130px;
+        height:45px;
+        font-size:20px;
+        margin-top:15px;
+    }
+
+    li{
+        margin-bottom:35px;
+    }
 }
