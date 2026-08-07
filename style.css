@@ -74,7 +74,7 @@ button:hover{
 
     button{
         width:95%;
-        max-width:280px;
+        max-width:350px;
         height:65px;
         font-size:20px;
     }
@@ -88,4 +88,87 @@ button:hover{
     li{
         margin-bottom:30px;
     }
+}
+/* Navigation Bar */
+
+.navbar{
+    background:#04f5f5;
+    overflow:hidden;
+    text-align:left;
+    padding:10px;
+}
+
+.navbar a{
+    color:rgb(20, 18, 18);
+    text-decoration:none;
+    padding:14px 20px;
+    display:inline-block;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    background:#0465f8;
+    border-radius:5px;
+}
+/* ==========================
+   LOGIN PAGE
+========================== */
+
+.login-page{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#00c6ff,#0072ff,#8e2de2);
+}
+
+.login-box{
+    width:360px;
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.login-box h1{
+    color:#0072ff;
+    margin-bottom:10px;
+}
+
+.login-box h2{
+    color:#333;
+    margin-bottom:25px;
+}
+
+.login-box input{
+    width:90%;
+    padding:15px;
+    margin:10px 0;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:17px;
+}
+
+.login-box input:focus{
+    border-color:#0072ff;
+    outline:none;
+}
+
+.login-box button{
+    width:95%;
+    height:55px;
+    background:linear-gradient(to right,#00c6ff,#0072ff);
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:linear-gradient(to right,#28a745,#00c853);
+    transform:scale(1.05);
 }
